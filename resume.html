@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        .jeetColor{
+            color: cyan;
+            font-family:cursive;
+        }
+        .socialColor{
+            color: beige;
+        }
+        .sizeOfSkills{
+            font-size: large;          
+        }
+        .feedbackColor{
+            color: rgb(149, 56, 180);
+        }
+        .projectColor{
+            color :gold;
+        }
+        .contactColor{
+            color:cadetblue;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(2, 1, 52)"> <!-- rgb(2 , 1 , 52) -->
+<font size="6" color="orange">
+    <marquee>
+        <u><strong><em>My Resume</em></strong></u>
+    </marquee>
+</font>
+<font size="6" color="yellow">
+    <div>
+        <strong class="jeetColor"><em>Jeet Karmakar</em></strong> 
+    </div>
+    <details>
+        <summary>Education :-</summary>
+        <table border="">
+            <thead>
+                <tr>
+                    <th>Institution</th>
+                    <th>Standard</th>
+                    <th>Passing Year</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Asansol Engineering College (108)</td>
+                    <td>B.Tech in Electronics and Communication Engineering</td>
+                    <td>2026</td>
+                    <td>8.23 SGPA</td>
+                </tr>
+                <tr>
+                    <td>12th - Deshbandhu Vidyalaya Boys , Chittaranjan</td>
+                    <td>12th (PCMB)</td>
+                    <td>2022</td>
+                    <td>83.6 %</td>
+                </tr>
+                <tr>
+                    <td>10th - DAV Public School , Rupnarayanpur</td>
+                    <td>10th</td>
+                    <td>2020</td>
+                    <td>92.2 %</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
+</font>
+<font size="6" color="lightgreen">
+    <details>
+    <summary>Skills :-</summary>
+    <ul type="square">
+        <li class="sizeOfSkills"><h2>C (programming language)</h2></li>
+        <li class="sizeOfSkills"><h2>Python (programming language)</h2></li>
+        <li class="sizeOfSkills"><h2>Java (programming language)</h2></li>
+        <li class="sizeOfSkills"><h2>JavaScript (programming language)</h2></li>
+        <li class="sizeOfSkills"><h2>Web Development</h2></li>
+        <ul type="circle">
+            <li class="sizeOfSkills"><h3>Frontend :-</h3></li>
+            <ol>
+                <li class="sizeOfSkills">HTML (programming language)</li>
+                <li class="sizeOfSkills">CSS (programming language)</li>
+                <li class="sizeOfSkills">JavaScript (React)</li>
+            </ol>
+            <li class="sizeOfSkills"><h3>Backend :-</h3></li>
+            <ol>
+                <li class="sizeOfSkills">JavaScript (Express , Node)</li>
+                <li class="sizeOfSkills">Java (Spring)</li>
+                <li class="sizeOfSkills">Python (Flask , Django)</li>
+                <li class="sizeOfSkills">SQL (MongoDB)</li>
+            </ol>
+        </ul>
+    </ul>
+    </details>
+    <details class="projectColor">
+        <summary>Project :-</summary>
+        <table border="">
+            <thead>
+                <tr>
+                    <th>Name of project</th>
+                    <th>Techonologies used</th>
+                    <th>Tools used</th>
+                    <th>Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Resume Webpage</td>
+                    <td>HTML5  , CSS3</td>
+                    <td>VS Code , Chrome</td>
+                    <td><a href="https://github.com" target="_blank">Github</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
+    <details class="socialColor">
+        <summary>Social :-</summary>
+        <ul type="square">
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li><br>
+            <li><a href="https://linkedIn.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </details>
+    <details class="contactColor">
+        <summary>My Contact details :-</summary>
+        <div>Jeet Karmakar</div>
+        <div>Mobile no. - 7047344282</div>
+        <div>E-mail - jeetkarmakar176@gmail.com</div>
+    </details>
+    <details class="feedbackColor">
+        <summary>Feedback :-</summary>
+        If you have any suggestion fill the form below :-
+        <form action="Backend.php"> 
+            <div>
+                Name : <input type="text">
+            </div>
+            <div>
+                 Mob no. : <input type="number">
+            </div>
+            <div>
+                E-mail : <input type="email">
+            </div>
+            <div>
+                Designation : <input type="text">
+            </div>
+            <div>
+                How can i improve ? <br><textarea cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </details>
+</font>
+</body>
+</html>
