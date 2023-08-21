@@ -1,0 +1,116 @@
+.resumeColor{
+    font-size: 36px;
+    color: orange;
+}
+
+.jeetColor {
+    color: cyan;
+    font-weight: bolder;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-size: 30px;
+}
+
+.educationColor {
+    font-size: 36px;
+    color: yellow;
+}
+
+.tableBorder {
+    border: 2px solid yellow;
+}
+
+.sizeOfSkills {
+    font-size: 36px;
+    color: lightgreen;
+}
+
+.sizeOfSkills li {
+    font-size: 24px;
+    color: lightgreen;
+}
+
+.projectColor {
+    font-size: 36px;
+    color: gold;
+}
+
+
+#linkbtn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;
+    /* border: 2px solid gold; */
+    border-radius: 4px;
+    cursor: pointer;
+    color: gold;
+    background: rgb(2, 1, 52);
+    padding-top: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-right: 3px;
+}
+
+#linkbtn:hover {
+    text-decoration: none;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    background-color: rgb(2, 1, 52);
+}
+
+.socialColor {
+    font-size: 36px;
+    color: white;
+}
+
+.socialColor a {
+    /* border: 2px solid rgb(218, 81, 81); */
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+}
+
+.socialColor a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid aquamarine;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.contactColor {
+    color: cadetblue;
+}
+
+.feedbackColor {
+    color: rgb(149, 56, 180);
+}
+
+.formButton {
+    color: rgb(149, 56, 180);
+    background-color: rgb(2, 1, 52);
+    border: 2px solid rgb(149, 56, 180);
+}
+
+/*
+#hover{
+    text-decoration: none;
+    color: gold;
+    background-color: rgb(2 , 1 , 52);
+} */
+
+/* .btn {
+    font-size: 13px;
+    background: gold;
+    padding-top: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-right: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+} */
+
+/* .btn:hover {
+    color: gold;
+    background-color: rgb(2, 1, 52);
+} */
