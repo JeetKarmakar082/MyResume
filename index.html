@@ -6,56 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <style>
-        /* Internal css */
-        .jeetColor {
-            color: cyan;
-            <!--font-family:cursive;-->
-            <!--font-weight:bolder;-->
-        }
-
-        .socialColor {
-            color: beige;
-        }
-
-        .sizeOfSkills {
-            font-size: large;
-        }
-
-        .feedbackColor {
-            color: rgb(149, 56, 180);
-        }
-
-        .projectColor {
-            color: gold;
-        }
-
-        .intern {
-            color: palevioletred;
-        }
-
-        .contactColor{
-            color:cadetblue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:rgb(2, 1, 52)"> <!-- rgb(2 , 1 , 52) -->
-    <font size="6" color="orange">
-        <marquee>
+<body> <!-- rgb(2 , 1 , 52) -->
+    
+        <marquee class="resumeColor">
             <u><strong><em>My Resume</em></strong></u>
         </marquee>
-    </font>
-    <font size="6" color="yellow">
+
+
         <div>
-            <strong class="jeetColor">Jeet Karmakar</strong>
+            <strong class="jeetColor">Jeet Karmakar</strong
         </div>
 
         
-
         <!--Education section starts-->
 
-        <details>
+        <details class="educationColor">
             <summary>Education :-</summary>
             <table border="">
                 <thead>
@@ -98,45 +66,45 @@
 
     <!-- Skills section starts -->
 
-    <font size="6" color="lightgreen">
-        <details>
+ 
+        <details class="sizeOfSkills>
             <summary>Skills :-</summary>
             <ul type="square">
-                <li class="sizeOfSkills">
+                <li>
                     <h2>C (programming language)</h2>
                 </li>
-                <li class="sizeOfSkills">
+                <li>
                     <h2>Python (programming language)</h2>
                 </li>
-                <li class="sizeOfSkills">
+                <li>
                     <h2>C++ (programming language)</h2>
                 </li>
-                <!-- <li class="sizeOfSkills">
+                <!-- <li>
                     <h2>Java (programming language)</h2>
                 </li> -->
-                <!-- <li class="sizeOfSkills">
+                <!-- <li>
                     <h2>JavaScript (programming language)</h2>
                 </li> -->
-                <li class="sizeOfSkills">
+                <li>
                     <h2>Web Development</h2>
                 </li>
                 <ul type="circle">
-                    <li class="sizeOfSkills">
+                    <li>
                         <h3>Frontend :-</h3>
                     </li>
                     <ol>
-                        <li class="sizeOfSkills">HTML (programming language)</li>
-                        <li class="sizeOfSkills">CSS (programming language)</li>
-                        <!-- <li class="sizeOfSkills">JavaScript (React)</li> -->
+                        <li>HTML (programming language)</li>
+                        <li>CSS (programming language)</li>
+                        <!-- <li>JavaScript (React)</li> -->
                     </ol>
-                    <!-- <li class="sizeOfSkills">
+                    <!-- <li>
                         <h3>Backend :-</h3>
                     </li>
                     <ol>
-                        <li class="sizeOfSkills">JavaScript (Express , Node)</li>
-                        <li class="sizeOfSkills">Java (Spring)</li>
-                        <li class="sizeOfSkills">Python (Flask , Django)</li>
-                        <li class="sizeOfSkills">SQL & MongoDB</li>
+                        <li class>JavaScript (Express , Node)</li>
+                        <li class>Java (Spring)</li>
+                        <li class>Python (Flask , Django)</li>
+                        <li class>SQL & MongoDB</li>
                     </ol> -->
                 </ul>
             </ul>
@@ -180,7 +148,7 @@
                         <td>Portfolio Webpage</td>
                         <td>HTML5 , CSS3</td>
                         <td>VS Code , Chrome</td>
-                        <td><a href="https://github.com/JeetKarmakar082/MyResume" target="_blank">Github</a></td>
+                        <td><a href="https://github.com/JeetKarmakar082/MyResume" target="_blank">Code{;}</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -205,14 +173,14 @@
 
          <!-- contact section starts here -->
 
-    <details class="contactColor">
-        <summary>My Contact details :-</summary>
-        <div>Jeet Karmakar</div>
-        <div>Mobile no. - 7047344282</div>
-        <div>E-mail - jeetkarmakar176@gmail.com</div>
-    </details>
+            <details class="contactColor">
+                <summary>My Contact details :-</summary>
+               <div>Jeet Karmakar</div>
+               <div>Mobile no. - 7047344282</div>
+               <div>E-mail - jeetkarmakar176@gmail.com</div>
+           </details>
 
-    <!-- contact section ends here -->
+        <!-- contact section ends here -->
 
 
         <!-- Form section starts -->
@@ -258,6 +226,9 @@
         </details> -->
 
         <!-- Form section ends -->
+
+</body>
+</html>
 
 
 
