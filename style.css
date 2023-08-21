@@ -48,7 +48,7 @@
     border-radius: 4px;
     cursor: pointer;
     color: gold;
-    background: rgb(2, 1, 52);
+    background: #020134;
     padding-top: 12px;
     padding-left: 3px;
     padding-top: 2px;
@@ -59,7 +59,7 @@
     text-decoration: none;
     color: aquamarine;
     border: 2px solid aquamarine;
-    background-color: rgb(2, 1, 52);
+    background-color: #020134;
 }
 
 .socialColor {
