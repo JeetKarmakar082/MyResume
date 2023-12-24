@@ -3,35 +3,37 @@
 }
 
 .image_box{
+    width: 199px;
     border: 3px solid oldlace;
     border-radius: 13px;
     border-width: 4px;
-    float: left;
+    float: inline-start;
     margin-left: 194px;
     margin-top: 44px;
 }
 
 .resumeColor{
-    font-size: 52px;
+    font-size: 32px;
     color: orange;
 }
 
 .jeetColor {
-      font-size: 48px;
+    font-size: 30px;
     display: flow;
     border: 3px solid oldlace;
     border-radius: 13px;
     border-width: 4px;
     width: 676px;
-    float: left;
+    float: inline-start;
     margin-left: 197px;
-    margin-top: 142px;
+    margin-top: 112px;
     color: cyan;
+    padding-left: 7px;
 }
 
 .educationColor {
-    margin-top: 480px;
-    font-size: 48px;
+    margin-top: 325px;
+    font-size: 30px;
     color: yellow;
 }
 
@@ -46,7 +48,7 @@
 }
 
 .sizeOfSkills {
-    font-size: 48px;
+    font-size: 30px;
     color: lightgreen;
 }
 
@@ -56,12 +58,11 @@
 }
 
 .projectColor {
-    font-size: 48px;
+    font-size: 30px;
     color: gold;
 }
 
-
-.linkbtn {
+#linkbtn {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: 24px;
@@ -77,7 +78,7 @@
     padding-right: 3px;
 }
 
-.linkbtn:hover {
+#linkbtn:hover {
     text-decoration: none;
     color: aquamarine;
     border: 2px solid aquamarine;
@@ -85,13 +86,13 @@
 }
 
 .socialColor {
-    font-size: 48px;
+    font-size: 30px;
     color: white;
 }
 
 .socialColor a {
     /* border: 2px solid rgb(218, 81, 81); */
-    font-size: 36px;
+    font-size: 30px;
     text-decoration: none;
     color: white;
 }
@@ -105,19 +106,39 @@
 
 .contactColor {
     color: cadetblue;
-    font-size: 48px;
+    font-size: 30px;
 }
 
-/*
 .feedbackColor {
     color: rgb(149, 56, 180);
 }
-*/
 
-/*
 .formButton {
     color: rgb(149, 56, 180);
     background-color: rgb(2, 1, 52);
     border: 2px solid rgb(149, 56, 180);
 }
-*/
+
+/*
+#hover{
+    text-decoration: none;
+    color: gold;
+    background-color: rgb(2 , 1 , 52);
+} */
+
+/* .btn {
+    font-size: 13px;
+    background: gold;
+    padding-top: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-right: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+} */
+
+/* .btn:hover {
+    color: gold;
+    background-color: rgb(2, 1, 52);
+} */
