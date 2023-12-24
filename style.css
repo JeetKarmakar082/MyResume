@@ -6,7 +6,7 @@
     border: 3px solid oldlace;
     border-radius: 13px;
     border-width: 4px;
-    float: inline-start;
+    float: left;
     margin-left: 194px;
     margin-top: 44px;
 }
@@ -23,7 +23,7 @@
     border-radius: 13px;
     border-width: 4px;
     width: 676px;
-    float: inline-start;
+    float: left;
     margin-left: 197px;
     margin-top: 142px;
     color: cyan;
