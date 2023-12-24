@@ -40,6 +40,11 @@
     border-color: yellow;
 }
 
+.projectBorder {
+    border-width: 3px;
+    border-color:gold;
+}
+
 .sizeOfSkills {
     font-size: 48px;
     color: lightgreen;
