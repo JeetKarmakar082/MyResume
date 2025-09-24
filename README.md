@@ -1,5 +1,2 @@
 # MyResume
-Hello, I am Jeet Karmakar , an aspiring web developer and a coding enthusiast.
-My skillset include C , Python , C++ , HTML5 and CSS3.
-This is my resume in the form of a single static webpage written in HTML and CSS.
-I have mainly used html with internal css to build the webpage.
+Final year ECE student with expertise in full-stack web development using Django, Python, and JavaScript. Experienced in working with APIs, database management, and IoT systems and interested in Machine learning. Demonstrated leadership through organizing international competitions and technical club involvement. Seeking software development or engineering opportunities.
